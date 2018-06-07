@@ -1,0 +1,11 @@
+<div>
+  <h1>{{ title }}</h1>
+</div>
+<div>
+  <ul class="treeContact">
+    <app-tree
+      *ngFor="let contact of contacts"
+      [contactFirst]="contact"
+    ></app-tree>
+  </ul>
+</div>

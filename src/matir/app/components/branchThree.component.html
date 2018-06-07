@@ -1,0 +1,9 @@
+<li class="clsName">
+  <div>{{contactBranchThree.name}}</div>
+  <ul>
+    <branch-second
+      *ngFor="let contact of contactsBranchT"
+      [contactBranchFour]="contact"
+      ></branch-second>
+  </ul>
+</li>

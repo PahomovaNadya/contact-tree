@@ -1,0 +1,9 @@
+<li class="clsName">
+    <div (click)="openBranch()">{{contactFirst.name}}</div>
+    <ul>
+        <branch-first
+            *ngFor="let contact of contactsBranchF"
+            [contactBranchFirst]="contact"
+        ></branch-first>
+    </ul>    
+</li>

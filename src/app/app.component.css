@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 22px;
+}
+.treeContact {
+  width: 100%;
+  margin: 0px 1%;
+}
+:host ul, :host ul > li {
+  list-style: none;
+  margin: 0%;
+  padding: 0px;
+  cursor: pointer;
+}
+.clsName{
+  width: 100%;
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 5px;
+}
+.clsName > div:hover {
+  background-color: #add8e6;
+}
+.branchFirst {
+  margin: 0px 2%;
+  width: 100%;
+}
+/*.branchFirst:hover {
+  background-color: #add8e6;
+}*/
